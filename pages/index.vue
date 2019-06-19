@@ -1,16 +1,14 @@
 <template>
-  <div class="container">
-    <h1 class="name">
-      <span>ク</span>スノキ <span>ソ</span>ウタ
-    </h1>
-  </div>
+  <h1 class="name">
+    <span>ク</span>スノキ
+    <span>ソ</span>ウタ
+  </h1>
 </template>
 
 <script></script>
 
 <style lang="scss" scoped>
-@import url('~/assets/style/common.scss');
-$acsent_color: #E74C3C;
+$acsent_color: #e74c3c;
 
 .name {
   position: relative;
@@ -20,8 +18,10 @@ $acsent_color: #E74C3C;
   -ms-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
   box-sizing: border-box;
-  margin: auto;
   width: 60px;
+  margin-top: 10%;
+  margin-right: auto;
+  margin-left: 50%;
   font-size: 51px;
   line-height: 1.43;
   text-align: center;

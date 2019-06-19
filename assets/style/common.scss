@@ -1,5 +1,6 @@
 $main_color: #ECF0F1;
 $text_color: #2C3E50;
+$acsent_color: #e74c3c;
 
 * {
     font-family: 'Hiragino Mincho ProN';
@@ -9,19 +10,47 @@ $text_color: #2C3E50;
 
 html {
     width: 100%;
-    height: auto;
+    height: 100%;
     background-color: $main_color;
 }
 
 .container {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: space-between;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
 
-    .title {
-        writing-mode: upright;
-    }
+    .content{
+        width: 100%;
+        writing-mode: vertical-rl;
+        margin-top: 10%;
+        h1 {
+            font-size: 400%;
+
+            span {
+                color: $acsent_color;
+            }
+        }
+
+        h2 {
+            font-size: 300%;
+            margin-right: 10%;
+        }}
+        
+        .main{
+            margin-right: 0%;
+            width: 50%;
+            p {
+                margin-right: 5%;
+                font-size: 150%;
+            }
+            span {
+                writing-mode: horizontal-tb;
+            }
+            .image {
+                width: 50%;
+                max-width: 400px;
+                height: auto;
+                margin-right: 70%;
+            }
+        }
 }

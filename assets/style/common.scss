@@ -1,0 +1,27 @@
+$main_color: #ECF0F1;
+$text_color: #2C3E50;
+
+* {
+    font-family: 'Hiragino Mincho ProN';
+    box-sizing: border-box;
+    color: $text_color;
+}
+
+html {
+    width: 100%;
+    height: auto;
+    background-color: $main_color;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+
+    .title {
+        writing-mode: upright;
+    }
+}
